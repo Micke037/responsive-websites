@@ -1,8 +1,10 @@
 
-h1, h2, h3, h4, p, li {
-    font-family: sans-serif;
+body {
     color: #444;
+    font-family: sans-serif;
+    border-top: 10px solid #1098ad;
 }
+
 
 h1, h2, h3, h4 {
 
@@ -71,12 +73,6 @@ li:first-child {
 }
 li:last-child {
     font-style: italic;
-}
-li:nth-child(2) {
-    /*color:#1098ad;*/
-}
-article p:last-child {
-    /* color:red; */
 }
 
 a:link {
