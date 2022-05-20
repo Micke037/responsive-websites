@@ -8,6 +8,7 @@ article {
     border: 3px solid black;
     max-width: 700px;
     margin: auto;
+    margin-top: 50px;
 }
 
 h1 {
@@ -15,6 +16,17 @@ h1 {
     text-align: center;
     background-color: #f7f7f7;
     padding: 10px;
+    position: relative;
+}
+
+h1::after {
+    content: "SALE";
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: -15px;
+    left:-30px;
 }
 
 .price {
@@ -32,6 +44,57 @@ h1 {
 }
 .text {
     margin-bottom: 10px;
+}
+
+
+
+.kocka1 {
+    padding: 5px;
+    background-color: black;
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.kocka2 {
+    padding: 5px;
+    background-color: blue;
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.kocka3 {
+    padding: 5px;
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.kocka4 {
+    padding: 5px;
+    background-color: yellow;
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.kocka5 {
+    padding: 5px;
+    background-color: green;
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.kocka6 {
+    padding: 5px;
+    background-color: brown;
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+    display: inline-block;
 }
 
 a {
@@ -75,4 +138,9 @@ button:hover {
     
     
     
+}
+
+.link {
+    display: inline-block;
+    margin-bottom: 25px;
 }
