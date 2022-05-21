@@ -14,19 +14,21 @@
 
     <div class="container">
 
-<header class="main-header">
+<header class="main-header clearfix" >
 
     <h1>📘 The Code Magazine</h1>
-
+ 
     <nav>
 
         <a href="blog.html" target="blank">Blog</a>
         <a href="blog.html" target="blank">Challenges</a>
-        <a href="blog.html" target="blank">Flexbox</a>
+        <a href="--grid--flex/flexbox.html" target="blank">Flexbox</a>
         <a href="blog.html" target="blank">CSS</a>
-        <a href="blog.html" target="blank">Grid</a>
+        <a href="--grid--flex/css-grid.html" target="blank">Grid</a>
     
     </nav>
+
+    <!-- <div class="clear"></div> -->
 
 </header>
 
@@ -36,12 +38,16 @@
 
     <h2>The Basic Language of the Web: HTML</h2>
 
-    <img class="laura" src="img/laura-jones.jpg" alt="profile picture of laura jones" 
-    width="60px" heigth="60px"/>
+    <div class="author-box">
+
+        <img class="laura" src="img/laura-jones.jpg" 
+        alt="profile picture of laura jones" 
+        width="60px" heigth="60px"/>
     
-    <p>Posted by <strong>Laura Jones</strong> 
-        on Monday, June 21st 2027</p>
-        
+        <p class="author">Posted by <strong>Laura Jones</strong> 
+            on Monday, June 21st 2027
+        </p>
+    </div>
     
         <img src="img/post-img.jpg" class="post-img" alt="HTML code on a screen" 
         width="500px" heigth="200px" />
@@ -112,20 +118,20 @@
     
     
     <ul class="related">
-        <li ><img class="related-img" src="img/related-1.jpg" alt="Man coding on laptop" 
+        <li class="related-post"><img class="related-img" src="img/related-1.jpg" alt="Man coding on laptop" 
             width="70px" heigth="70px">
-            <a href="">How to Learn Web Development</a>
+            <a href="" class="related-link">How to Learn Web Development</a>
             <p class="related-author">-By Jonas Schmedtmann</p></li>
             
     
-        <li ><img class="related-img" src="img/related-2.jpg" alt="lightning" 
+        <li class="related-post"><img class="related-img" src="img/related-2.jpg" alt="lightning" 
                 width="70px" heigth="70px" >
-                <a href="">the Unknown powers of css</a>
+                <a class="related-link" href="">the Unknown powers of css</a>
                 <p class="related-author">-By Jim Dillon</p></li>
                 
     
-        <li ><img class="related-img" src="img/related-3.jpg" width="70px" heigth="70px"/>
-            <a href="">Why JavaScript is Awesome</a>
+        <li class="related-post"><img class="related-img" src="img/related-3.jpg" width="70px" heigth="70px"/>
+            <a class="related-link" href="">Why JavaScript is Awesome</a>
             <p class="related-author">-By Matilda</p></li>
             
     
