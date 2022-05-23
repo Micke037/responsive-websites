@@ -2,11 +2,12 @@
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.4;
 }
 
 article {
     border: 3px solid black;
-    max-width: 700px;
+    width: 800px;
     margin: auto;
     margin-top: 50px;
 }
@@ -29,72 +30,104 @@ h1::after {
     left:-30px;
 }
 
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+    
+    
+}
+
+.img {
+    flex: 1;
+}
+
+.part1 {
+    
+    flex: 1;
+    
+}
+
+.part2 {
+    flex: 1;
+    margin-right: 10px;
+}
+
+
+
+.shipping-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+    
+}
+
 .price {
     font-weight: 800;
     font-size: 20px;
-    margin-bottom: 5px;
+    
 }
 
 .shipping {
     text-transform: uppercase;
     font-weight: 600;
     color: #444;
-    font-size: 15px;
-    margin-bottom: 15px;
+    font-size: 12px;
+    
 }
 .text {
     margin-bottom: 10px;
 }
 
-
+.kocke {
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+}
 
 .kocka1 {
-    padding: 5px;
+    padding: 7px;
     background-color: black;
     width: 5px;
     height: 5px;
-    margin-left: 10px;
-    display: inline-block;
+    
 }
 .kocka2 {
-    padding: 5px;
+    padding: 7px;
     background-color: blue;
     width: 5px;
     height: 5px;
-    margin-left: 10px;
-    display: inline-block;
+    
 }
 .kocka3 {
-    padding: 5px;
+    padding: 7px;
     background-color: red;
     width: 5px;
     height: 5px;
-    margin-left: 10px;
-    display: inline-block;
+    
 }
 .kocka4 {
-    padding: 5px;
+    padding: 7px;
     background-color: yellow;
     width: 5px;
     height: 5px;
-    margin-left: 10px;
-    display: inline-block;
+   
 }
 .kocka5 {
-    padding: 5px;
+    padding: 7px;
     background-color: green;
     width: 5px;
     height: 5px;
-    margin-left: 10px;
-    display: inline-block;
+  
 }
 .kocka6 {
-    padding: 5px;
+    padding: 7px;
     background-color: brown;
     width: 5px;
     height: 5px;
-    margin-left: 10px;
-    display: inline-block;
+   
 }
 
 a {
@@ -141,6 +174,15 @@ button:hover {
 }
 
 .link {
-    display: inline-block;
+    display: inline-block; 
     margin-bottom: 25px;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.img {
+    height: 250px;
 }
