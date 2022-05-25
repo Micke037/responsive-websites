@@ -18,6 +18,7 @@ h1 {
     background-color: #f7f7f7;
     padding: 10px;
     position: relative;
+    grid-column: 1 / -1;
 }
 
 h1::after {
@@ -30,28 +31,27 @@ h1::after {
     left:-30px;
 }
 
-.container {
+/* .container {
     display: flex;
     gap: 20px;
     align-items: center;
     
     
     
-}
+} */
 
 .img {
-    flex: 1;
-}
+
+} 
 
 .part1 {
     
-    flex: 1;
+    
     
 }
 
 .part2 {
-    flex: 1;
-    margin-right: 10px;
+    
 }
 
 
@@ -160,6 +160,7 @@ button {
     text-transform: uppercase;
     width: 100%;
     padding: 10px;
+    grid-column: 1 / -1;
 }
 
 button:hover {
@@ -185,4 +186,11 @@ h3 {
 
 .img {
     height: 250px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    column-gap: 25px; 
+    align-items: center;
 }
